@@ -10,7 +10,7 @@ but in Python. (I am not cool enough for golang yet :/ )
 shellgate is both a proof of concept of how to integrate a TCP downgrade into
 the Python WSGI framework and also an implementation that uses this to
 get you SSH sessions via an HTTP interface. Essentially, a webservice that can
-negotiate SSH sessions and serve them on the backend.
+negotiate SSH sessions on the backend and serve them on the frontend.
 
 # WSGI TCP "Upgrade"
 
